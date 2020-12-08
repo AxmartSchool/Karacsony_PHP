@@ -1,0 +1,128 @@
+body {
+	background-color: gray;
+	font-family: Verdana;
+}
+.full {
+	box-shadow: 0px 0px 20px black;
+	background-color: lightyellow;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	padding: 5px;
+}
+header, nav, main, footer {
+	padding: 20px;	
+}
+header {
+	background-color: black;
+	background-image: url(./fej.jpg);
+	background-position: left top;
+	color: gold;
+	padding: 10px 0px 30px 0px;
+	text-align: center;
+	font-size: 80%;
+	height: 200px;
+	text-shadow: 1px 1px 2px black;
+}
+
+header div{
+	padding: 20px;
+}
+
+header h1{
+	text-align: left;
+	text-shadow: 1px 1px 2px red;
+}
+
+.kiemelt {
+	text-shadow: 1px 1px 2px yellow;
+}
+.visszaszamlalas{
+	text-align: center;
+}
+
+nav {
+	background-color: darkgreen;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom: 5px;
+	color: gold;
+	font-variant: small-caps;
+}
+main {
+	background-color: lightyellow;
+}
+footer {
+	background-color: darkgreen;
+	color: gold;
+	margin-top: 5px;
+	text-align: center;
+	font-style: italic;
+	font-size: 80%;
+}
+.forras {
+	font-style: italic;
+	font-size: 80%;
+}
+h1 , h2{
+	text-align: center;
+	text-shadow: 1px 1px 2px green;
+}
+
+
+a {
+	text-decoration: none;
+	color: gold;
+	padding: 5px;
+}
+
+a:hover {
+		color: green;
+		text-decoration: underline;
+}
+main a {
+	color: green;
+}
+input[type=text], input[type=email] , input[type=tel], select{
+	width: 250px;
+}
+
+input[type=number]{
+	width: 100px;
+}
+
+main ul.karacsonyfak {
+	list-style: none;
+}
+
+main ul.karacsonyfak  li {
+
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+main ul.rendelesForm{
+	list-style: none;
+	padding-left: 0;
+	font-size: 80%;
+}
+
+main ul.rendelesForm li {
+	display: inline-block;
+	margin: 15px 40px 15px 0 ;
+	min-width: 300px;
+
+}
+
+main ul.rendelesForm li p{
+	margin: 0;
+
+}
+
+textarea{
+
+	width: 80%;
+
+}
